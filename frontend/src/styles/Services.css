@@ -5,6 +5,15 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+.services h1 {
+    font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 62px;
+letter-spacing: -0.413168px;
 }
 .services__box{
     width: 75%;

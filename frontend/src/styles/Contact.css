@@ -1,0 +1,88 @@
+.contact__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border: 2px solid #E9ECEF;
+    border-radius: 10px;
+}
+.contact__text {
+
+}
+.contact__box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.34);
+    border-radius: 20px;
+    width: 480px;
+
+    padding: 35px;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.contact__box .text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ADB5BD;
+    margin-bottom: 5px;
+
+}
+.contact__box .text span {
+    color: #FF0000;
+}
+.contact__box .input {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    height: 30px;
+    width: 300px;
+}
+.contact__box textarea{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    height: 120px;
+}
+.contact__box .button {
+    width: 88.28px;
+    height: 50.8px;
+    background: #EEEEEE;
+    border: 1px solid #DDDDDD;
+}
+.contact__text span{
+    width: 127.31px;
+    height: 23.5px;
+    background: #FF6C5F;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.5px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.contact__text h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    /* or 128% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.44px;
+
+    color: #343A40;
+}
