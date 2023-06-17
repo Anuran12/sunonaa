@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Navbar.css'
 import Logo from '../img/logo.png'
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
@@ -12,12 +13,12 @@ function Navbar() {
           onclick="window.location = '/';"
         />
         <nav class="nav-list">
-          <a href="/" class="nav-link scale">Home</a>
-          <a href="./gallery.html" class="nav-link scale">About</a>
-          <a href="./about.html" class="nav-link scale">Service</a>
-          <a href="./T-and-C.html" class="nav-link scale">Blog</a>
-          <a href="./T-and-C.html" class="nav-link scale">Collaboration</a>
-          <a href="./T-and-C.html" class="nav-link scale">Become A Listener</a>
+          <Link to='/' class="nav-link scale">Home</Link>
+          <Link to='/About' class="nav-link scale">About</Link>
+          <Link to='/Services' class="nav-link scale">Service</Link>
+          <Link to='/Blogs' class="nav-link scale">Blogs</Link>
+          <Link to='/Collaboration' class="nav-link scale">Collaboration</Link>
+          <Link to='/Listener' class="nav-link scale">Become A Listener</Link>
 
         </nav>
         <div className='nav_btns'>
