@@ -31,6 +31,7 @@ line-height: 48px;
     grid-template-columns: auto auto auto;
     width: 75%;
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 .middle__box {
     border-left: 1px solid #999999;
@@ -60,4 +61,8 @@ line-height: 48px;
 .footer__bottom span {
     margin-left: 40px;
     margin-right: 40px;
+}
+.details__box span{
+    margin-top: 10px;
+    
 }
