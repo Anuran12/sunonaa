@@ -5,6 +5,9 @@ import '../styles/Hero.css'
 function Hero() {
   return (
     <div className='hero__box'>
+        <div className='hero__img1'>
+            <img src={Heroimg} />
+        </div>
         <div className='hero__text'>
             <h1 className='hero__heading'>
                 NEED <br/><span>SOMEONE</span> TO TALK TO?

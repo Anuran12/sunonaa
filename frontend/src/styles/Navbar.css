@@ -89,12 +89,13 @@
         width: 70%;
         position: absolute;
         right: 0px;
+        top: 90px;
 
     }
   
     .mobile-menu-link {
       background-color: white;
-      height: 100vh;
+      height: 50vh;
       display: grid;
       grid-column: 2/5;
       align-items: center;
@@ -145,16 +146,29 @@
   
   @media (max-width: 520px) {
     .nav {
-      height: 6rem;
+      height: 4rem;
       grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
     }
   
-    .logo{
-      height: 6rem;
+    .logo-top{
+      height: 2.5rem;
+      width: auto;
     }
   
     .hamburger-menu {
       display: block;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
+    .hamburger-menu {
+        
+        right: 20px;
+        top: 20px;
+      }
+      .mobile-menu-link{
+        top: 4rem;
+        padding-left: 0rem;
+      }
+      .nav-btn{
+        padding: 7px 7px;
+      }
   }  

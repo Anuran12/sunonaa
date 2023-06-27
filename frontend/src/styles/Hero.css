@@ -12,6 +12,9 @@
 .hero__img {
     width: 50%;
 }
+.hero__img1{
+    display: none;
+}
 .hero__heading{
     padding-left: 75px;
     font-family: 'Inter';
@@ -60,4 +63,40 @@ padding-left: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Responsive */
+
+@media (max-width: 798px){
+    .hero__img{
+        display: none;
+    }
+    .hero__heading{
+        padding-left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -0.48px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    }
+    .hero__text{
+        width: 100%;
+    }
+    .hero__about{
+        padding-left: 40px;
+        font-size: 17px;
+        width: 80%;
+        line-height: normal;
+    }
+    .hero__img1{
+        display: block;
+    }
+    .hero__box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

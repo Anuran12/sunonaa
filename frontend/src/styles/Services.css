@@ -1,4 +1,5 @@
 .services{
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -18,12 +19,10 @@ letter-spacing: -0.413168px;
 .services__box{
     width: 75%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2fr 2fr;
+    gap: 8px;
 }
 .service {
-    width: 465px;
-    height: 300px;
-    margin-top: 8px;
     background: #F6EED9;
     border: 1px solid #F5E6BF;
     border-radius: 40px;
@@ -56,4 +55,26 @@ line-height: 40px;
     height: 50px;
     width: 145px;
     border: none;
+}
+
+/* Responsive */
+
+@media (max-width: 798px){
+    .services__box{
+        grid-template-columns: 1fr;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service{
+        width: 90%;
+    }
+    .service div h1 {
+        font-size: 20px;
+        margin-right: 10px;
+        line-height: normal;
+    }
+    
 }

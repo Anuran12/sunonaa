@@ -15,9 +15,7 @@
     border: 2px solid #E9ECEF;
     border-radius: 10px;
 }
-.contact__text {
 
-}
 .contact__box {
     display: flex;
     flex-direction: column;
@@ -85,4 +83,25 @@
     letter-spacing: -1.44px;
 
     color: #343A40;
+}
+
+
+/* Responsive */
+
+@media (max-width: 798px){
+    .contact{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .contact__box{
+        width: 70%;
+    }
+    .contact__box .input{
+        width: 250px;
+    }
 }

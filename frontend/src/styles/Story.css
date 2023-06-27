@@ -81,3 +81,44 @@ line-height: 88px;
     line-height: 29px;
     margin-top: 0;
 }
+
+/* Responsive */
+@media (max-width: 798px){
+    .counters{
+        grid-template-columns: auto auto auto;
+    }
+    .arrow{
+        display: none;
+    }
+    .counter1 h1{
+        font-size: 14px;
+    }
+    .counter1 div{
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .story__img1{
+        width: 135px;
+        border: 8px solid #D6D6D6;
+    }
+    .story__img2{
+        width: 135px;
+        border: 8px solid #D6D6D6;
+    }
+    .story__img3{
+        width: 135px;
+        border: 8px solid #D6D6D6;
+    }
+    .youtube-video {
+        grid-area: video;
+        width: 200px;
+        height: 150px;
+    }
+    .story__title{
+        font-size: 20px;
+    }
+    .story__title2{
+        font-size: 16px;
+        line-height: normal;
+    }
+}
