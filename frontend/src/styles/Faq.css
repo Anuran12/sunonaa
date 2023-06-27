@@ -9,3 +9,30 @@
 .faq__box{
     width: 75%;
 }
+
+.faq-row-wrapper {
+    .faq-title {
+        padding-left: 20px;
+    }
+    .faq-body {
+        .faq-row {
+            .row-title {
+                padding-left: 10px;
+            }
+
+            .row-content {
+                .row-content-text {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
+/* Responsive */
+
+@media (max-width: 798px){
+    .faq__box{
+        width: 85%;
+    }
+}

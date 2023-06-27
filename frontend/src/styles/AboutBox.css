@@ -55,3 +55,38 @@
     margin-right: 0;
     margin-left: 50px;
 }
+
+
+/* Responsive */
+
+@media (max-width: 798px){
+    .vision__box img{
+        width: 300px;
+        height: auto;
+    }
+    .vision__box div{
+        margin-right: 0px;
+    }
+    .vision__box div p{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .vision__box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mission__box div{
+        margin-left: 0px;
+    }
+    .vision{
+        font-size: 50px;
+        line-height: normal;
+        margin-top: 0;
+    }
+    .mission{
+        font-size: 50px;
+        line-height: normal;
+        margin-top: 25px;
+    }
+}

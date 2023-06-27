@@ -32,6 +32,7 @@ const styles = {
     titleTextColor: "#606060",
     titleTextSize: "50px",
     rowTitleColor: "black",
+    rowpadding: '10px',
     rowContentColor: 'grey',
     arrowColor: "#606060",
     rowContentPaddingBottom: '10px',
