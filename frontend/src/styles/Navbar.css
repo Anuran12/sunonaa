@@ -32,7 +32,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 12px;
+    gap: 5px;
 }
 .nav-btn{
     text-decoration: none;
@@ -51,7 +51,7 @@
     margin-right: 15px;
     font-size: 14px;
     font-weight: bold;
-    color: rgb(103, 117, 130);
+    color: rgb(57, 61, 65);
 }
 .nav-link:hover {
     color: #FF7E3E;
@@ -62,6 +62,79 @@
   .nav_btns_mobile{
     display: none;
 
+  }
+  .menu-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #donate {
+    margin: 0px 05px;
+    font-size: 1rem;
+    background: #FF7E3E;
+    border: 1px solid #FF7E3E;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  #donate:hover,
+  #donate:active {
+    background-color: white;
+    background-position: 0 0;
+    color: #FF7E3E;
+  }
+  
+  #volunteer {
+    margin: 0px 05px;
+    font-size: 1rem;
+    background: white;
+    border: 1px solid #FF7E3E;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FF7E3E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  #volunteer:hover,
+  #volunteer:active {
+    background-color: #FF7E3E;
+    background-position: 0 0;
+    color: white;
+  }
+  
+  button:active {
+    opacity: 0.5;
   }
 
 

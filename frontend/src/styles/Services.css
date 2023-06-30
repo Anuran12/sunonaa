@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 40px;
 }
 .services h1 {
     font-style: normal;
@@ -20,7 +20,7 @@ letter-spacing: -0.413168px;
     width: 75%;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    gap: 8px;
+    gap: 10px;
 }
 .service {
     background: #F6EED9;
@@ -50,11 +50,35 @@ font-size: 27px;
 line-height: 40px;
 }
 .service div button{
+    margin: 0px 05px;
+    font-size: 1rem;
     background: #FF7E3E;
-    border-radius: 8px;
-    height: 50px;
-    width: 145px;
-    border: none;
+    border: 1px solid #FF7E3E;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 150px;
+}
+.service div button:hover,
+.service div button:active {
+    background-color: white;
+    background-position: 0 0;
+    color: #FF7E3E;
 }
 
 /* Responsive */

@@ -86,7 +86,7 @@ function ServicesMain() {
             <a
               href="#"
               class="cta"
-              >Connect With Us</a>
+              >Connect Us</a>
           </div>
         </section>
       </main>

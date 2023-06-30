@@ -46,7 +46,7 @@
 .team__title {
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -0.48px;
     color: rgba(0, 0, 0, 0.56);
     margin-top: 50px;
@@ -55,19 +55,19 @@
 .volunteer__title{
    font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -0.48px;
     color: rgba(0, 0, 0, 0.56);
     margin-top: 0;
     margin-bottom: 10px;
 }
 .team__seaction {
-    width: 90%;
+    width: 100%;
 }
 
 
 
-.demo-wrapper {
+.demo-gallery {
   overflow-x: hidden;
 }
 
@@ -81,4 +81,35 @@
 }
 .wrapper  li {
    list-style: none;
+}
+
+
+/* Responsive */
+
+@media (max-width: 798px) {
+    .founder{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .team h1{
+        font-size: 40px;
+    }
+    .founder p{
+        font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    margin-right: 0px;
+    }
+    .founder__img{
+        width: 200px;
+        height: auto;
+    }
+    .wrapper  li img {
+        width: 100px;
+        height: auto;  
+    }
+    .wrapper{
+        gap: 10px;
+    }
 }

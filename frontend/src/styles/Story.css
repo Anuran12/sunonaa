@@ -1,6 +1,6 @@
 .story{
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@ line-height: 88px;
     grid-template-areas: 'title img1  img2' 'video video img3' 'video video title2' ;
     gap: 10px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 90px;
     
 }
 

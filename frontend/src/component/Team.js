@@ -17,7 +17,7 @@ function Team() {
     
     gsap.utils.toArray('section').forEach((section, index) => {
         const w = section.querySelector('.wrapper');
-        const [x, xEnd] = (index % 2) ? ['30%', (w.scrollWidth - section.offsetWidth) * -1] : [(w.scrollWidth-700) * -1, 0];
+        const [x, xEnd] = (index % 2) ? ['65%', (w.scrollWidth - 1000) * -1] : [(w.scrollWidth - 700) * -1, '10%'];
         gsap.fromTo(w, {  x  }, {
         x: xEnd,
         scrollTrigger: { 
@@ -38,7 +38,7 @@ function Team() {
                 <p>I love listening, hugs and crazy dancing. I am internationally certified facilitator, healer, social entrepreneur and lucky enough to be chosen by Sunonaa in its mission to create a more connected heart centred world.How does it get better than this and what else is possible now to invite more awesomeness to this planet?</p>
             </div>
             <div>
-                <img src={DummyImg} />
+                <img className='founder__img' src={DummyImg} />
                 <h2 className='founder__name'>Name</h2>
             </div>
         </div>

@@ -19,23 +19,15 @@ function Navbar() {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }>
             <nav class="nav-list">
-          <Link to='/' class="nav-link scale">Home</Link>
-          <Link to='/About' class="nav-link scale">About</Link>
-          <Link to='/Services' class="nav-link scale">Service</Link>
-          <Link to='/Blogs' class="nav-link scale">Blogs</Link>
-          <Link to='/Collaboration' class="nav-link scale">Collaboration</Link>
-          <Link to='/Listener' class="nav-link scale">Become A Listener</Link>
+          <Link to='/' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>Home</Link>
+          <Link to='/About' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>About</Link>
+          <Link to='/Services' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>Service</Link>
+          <Link to='/Blogs' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>Blogs</Link>
+          <Link to='/Collaboration' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>Collaboration</Link>
+          <Link to='/Listener' class="nav-link scale" onClick={() => setShowMediaIcons(!showMediaIcons)}>Become A Listener</Link>
           <div className='nav_btns_mobile'>
-        <a
-          id="nav-btn1"
-          class="nav-btn"
-          >Volunteer
-          </a>
-        <a
-          id="nav-btn2"
-          class="nav-btn"
-          >Donate
-          </a>
+          <button id="volunteer" onclick="">Volunteer</button>
+          <button id="donate" onclick="">Donate</button>
         </div>
           
 
@@ -45,16 +37,8 @@ function Navbar() {
 
         </div>
         <div className='nav_btns'>
-        <a
-          id="nav-btn1"
-          class="nav-btn"
-          >Volunteer
-          </a>
-        <a
-          id="nav-btn2"
-          class="nav-btn"
-          >Donate
-          </a>
+        <button id="volunteer" onclick="">Volunteer</button>
+        <button id="donate" onclick="">Donate</button>
         </div>
         <div className="hamburger-menu">
             <a onClick={() => setShowMediaIcons(!showMediaIcons)}>

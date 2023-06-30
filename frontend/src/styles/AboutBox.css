@@ -40,6 +40,7 @@
     width: 500px;
 }
 .mission {
+    margin-top: 150px;
     display: flex;
     flex-direction: row-reverse;
     font-style: normal;

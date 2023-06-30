@@ -1,4 +1,5 @@
 .intro {
+    padding-top: 60px;
     width: 90%;
     justify-content: space-between;
     margin: 0 auto;
@@ -13,6 +14,7 @@
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
+        align-items: end;
 }
 .intro:nth-child(2n)::before {
     background: linear-gradient(45deg, #e8505b, rgba(232, 80, 91, 0.5)) !important;
@@ -30,7 +32,8 @@
 .intro .intro-left {
     width: 50%;
     display: inline-block;
-    margin-right: 5vw;
+    margin-right: 1vw;
+
 }
 .intro *:not(.cta) {
     margin: 20px 0;
@@ -61,18 +64,20 @@ color: #606060;
     background: #e8505b;
 }
 .intro .intro-right{
-    margin-left: 5vw;
-    width: 40%;
+    margin-left: 1vw;
+    width: 50%;
     text-align: end;
+    
 }
 .intro .intro-right h1::after {
     right: 0;
     background-color: #008b6f !important;
 }
 .intro img {
-    width: auto;
-    max-width: 500px;
+    width: 800px;
     display: block;
+    align-self: center;
+    margin-top: 100px;
 }
 .wrapper2{
     display: flex;
