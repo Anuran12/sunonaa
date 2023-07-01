@@ -32,10 +32,10 @@
 .hero__about{
     
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
 /* or 131% */
 
 display: flex;
@@ -46,7 +46,7 @@ padding-left: 80px;
 }
 
 .hero__btn {
-    margin: 0px 05px;
+    margin: 20px 05px;
     font-size: 1rem;
     background: #FF7E3E;
     border: 1px solid #FF7E3E;
@@ -87,7 +87,7 @@ padding-left: 80px;
 
 @media (max-width: 798px){
     .hero__img{
-        display: none;
+        
     }
     .hero__heading{
         padding-left: 35px;
@@ -102,6 +102,10 @@ padding-left: 80px;
     }
     .hero__text{
         width: 100%;
+    }
+    .hero__btn{
+        margin-left: 40px;
+        padding: 12px 24px;
     }
     .hero__about{
         padding-left: 40px;

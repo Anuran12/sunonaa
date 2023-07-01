@@ -17,7 +17,7 @@ function Team() {
     
     gsap.utils.toArray('section').forEach((section, index) => {
         const w = section.querySelector('.wrapper');
-        const [x, xEnd] = (index % 2) ? ['65%', (w.scrollWidth - 1000) * -1] : [(w.scrollWidth - 700) * -1, '10%'];
+        const [x, xEnd] = (index % 2) ? ['50%', (w.scrollWidth - section.offsetWidth + 150) * -1] : [(w.scrollWidth) * -1, '20%'];
         gsap.fromTo(w, {  x  }, {
         x: xEnd,
         scrollTrigger: { 

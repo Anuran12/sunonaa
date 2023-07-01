@@ -1,0 +1,17 @@
+.chatbot{
+    width: 100px;
+    height: auto;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 798px){
+    .chatbot{
+        width: 60px;
+        bottom: 8px;
+        right: 8px;
+    }
+}

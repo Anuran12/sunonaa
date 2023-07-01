@@ -3,6 +3,7 @@ import Hero from '../component/Hero'
 import Services from '../component/Services'
 import Story from '../component/Story'
 import Contact from '../component/Contact'
+import Chatbot from '../component/Chatbot'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <Services />
       <Story />
       <Contact />
+      <Chatbot />
     </div>
     
   )
