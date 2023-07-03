@@ -5,6 +5,10 @@ import Service2 from '../img/services/service2.png'
 import Service3 from '../img/services/service3.png'
 import Service4 from '../img/services/service4.png'
 
+import Session1 from '../img/session1.png'
+import Session2 from '../img/session2.png'
+import Session3 from '../img/session3.png'
+
 function ServicesMain() {
   return (
     <div>
@@ -90,6 +94,15 @@ function ServicesMain() {
           </div>
         </section>
       </main>
+      <div className='session'>
+        <h1>OUR Trainers have hosted sessions for </h1>
+        <div>
+          <img src={Session1} />
+          <img src={Session2} />
+          <img src={Session3} />
+
+        </div>
+      </div>
     </div>
   )
 }
