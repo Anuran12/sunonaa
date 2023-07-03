@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
+    margin-top: 150px;
     margin-bottom: -200px;
 
 }
@@ -118,18 +118,28 @@
         padding-top: 20px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         grid-template-columns: auto;
         justify-content: center;
         width: 100%;
     }
     .contact__box{
         width: 70%;
+        align-self: center;
     }
+    
     .contact__box .input{
         width: 250px;
     }
     .contact__container{
         margin-bottom: -70px;
+    }
+    .contact__text{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .contact__text p {
+        line-height: normal;
+        margin-top: 0;
     }
 }
