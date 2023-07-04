@@ -12,7 +12,7 @@ function About() {
         <Counter />
         <Story />
         <AboutBox />
-        {/* <Team /> */}
+        <Team />
         <Contact />
     </div>
   )
