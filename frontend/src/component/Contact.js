@@ -1,7 +1,54 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/Contact.css'
 
 function Contact() {
+
+
+
+  const initialValues = { username: "", email: "", phone: "" };
+  const [formValues, setFormValues] = useState(initialValues);
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormErrors(validate(formValues));
+    setIsSubmit(true);
+  };
+
+  useEffect(() => {
+    console.log(formErrors);
+    if (Object.keys(formErrors).length === 0 && isSubmit) {
+      console.log(formValues);
+    }
+  }, [formErrors]);
+  const validate = (values) => {
+    const errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    const num = /^\+[1-9]{1}[0-9]{3,14}$/i;
+    if (!values.username) {
+      errors.username = "Username is required!";
+    }
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "This is not a valid email format!";
+    }
+    if (!values.phone) {
+      errors.password = "Phone number is required";
+    } else if (!num.test(values.phone)) {
+      errors.phone = "Please enter your country code!";
+    }
+    return errors;
+  };
+
+
+
   return (
     <div className='contact__container'>
     <div className='contact'>
@@ -24,22 +71,49 @@ function Contact() {
             />
             <p>Kolkata, India</p>
         </div>
-        <div className='contact__box'>
+        <form onSubmit={handleSubmit} className='contact__box'>
             <label for="name" className='text'>Name<span>*</span></label>
-            <input type="text" id="name" className='input' name="name" required /><br/>
+            <input type="text"
+              name="username"
+              placeholder="Username"
+              value={formValues.username}
+              onChange={handleChange}
+              id="name" 
+              className='input' required />
+              <p className='error'>{formErrors.username}</p>
 
             <label for="phone" className='text'>Phone Number<span>*</span></label>
-            <input type="tel" id="phone" className='input' name="phone" required/><br/>
+            <input type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            value={formValues.phone}
+            onChange={handleChange} 
+            id="phone" 
+            className='input' required/>
+            <p className='error'>{formErrors.phone}</p>
 
             <label for="email" className='text'>Email<span>*</span></label>
-            <input type="email" id="email" className='input' name="email" required/><br/>
+            <input type="text"
+              name="email"
+              placeholder="Email"
+              value={formValues.email}
+              onChange={handleChange} 
+              id="email" 
+              className='input' required/>
+              <p className='error'>{formErrors.email}</p>
 
             <label for="question" className='text'>Question<span>*</span></label>
             <textarea id="question" name="question" required></textarea><br/>
 
-            <input type="submit" className='button' value="Submit"/>
+            <button type="submit" className='button' value="Submit">Submit</button>
+            {Object.keys(formErrors).length === 0 && isSubmit ? (
+                <div className="success">Thank you to contact us!</div>
+            ) : (
+                <pre className='json'>{JSON.stringify(formValues, undefined, 2)}</pre>
+            )}
             
-        </div>
+        </form>
+        
 
     </div>
     </div>

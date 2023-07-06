@@ -2,7 +2,7 @@
 .ps-timeline-sec {
   position: relative;
   background: #fff;
-  height: 850px;
+  height: 600px;
   padding-top: 1px;
   overflow-x: scroll;
   cursor: grab;
@@ -16,7 +16,7 @@
 .story__title{
     font-style: normal;
     font-weight: 900;
-    font-size: 75px;
+    font-size: 42px;
     line-height: 70px;
     color: #FF7E3E;
     width: 100%;
@@ -153,16 +153,16 @@
   top: 49.5%;
 }
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 390px 0;
+  margin-top: 300px;
   padding: 0;
   border-top: 2px solid #348e80;
   list-style: none;
   display: flex;
-  width: 300%;
+  width: 200%;
 }
 .ps-timeline-sec .container ol.ps-timeline li {
   float: left;
-  width: 25%;
+  width: 33.33%;
   padding-top: 30px;
   position: relative;
 }

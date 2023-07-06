@@ -16,12 +16,14 @@ function ServicesMain() {
         <section class="intro" id="1">
           <div class="intro-left">
             <h1 class="hero">Connect With A Listener</h1>
-            <p class="content">
-            what is one on one listing?<br/>
-            How it is beneficial?<br/>
-            How safe it is?
-
-            </p>
+            <div>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+            </div>
             <a
               href="#"
               class="cta red"
@@ -41,12 +43,14 @@ function ServicesMain() {
           />
           <div class="intro-right">
             <h1 class="hero">LISTENING CIRCLE</h1>
-            <p class="content">
-            what is one on one listing?<br/>
-            How it is beneficial?<br/>
-            How safe it is?
-
-            </p>
+            <div>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+            </div>
             <a
               href="#"
               class="cta"
@@ -56,12 +60,14 @@ function ServicesMain() {
         <section class="intro" id="3">
           <div class="intro-left">
             <h1 class="hero">LISTENING WORKSHOP</h1>
-            <p class="content">
-            what is one on one listing?<br/>
-            How it is beneficial?<br/>
-            How safe it is?
-
-            </p>
+            <div>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+            </div>
             <a
               href="#"
               class="cta red"
@@ -81,12 +87,14 @@ function ServicesMain() {
           />
           <div class="intro-right">
             <h1 class="hero">COUNSELING</h1>
-            <p class="content">
-            what is one on one listing?<br/>
-            How it is beneficial?<br/>
-            How safe it is?
-
-            </p>
+            <div>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+              <h2 className='content_head'>what is one on one listing?</h2>
+              <p class="content">Lorem ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem ipsum</p>
+            </div>
             <a
               href="#"
               class="cta"
